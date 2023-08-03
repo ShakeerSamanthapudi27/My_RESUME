@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html
+        {
+            background-color: #D7BBF5;
+            border: 4px solid cornflowerblue;
+        }
+        body
+        {
+            background-image: url(./bg0.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main
+        {
+            text-align: center;
+        }
+        h2[class="sub1"]
+        {
+            background-color:#6528F7;
+            font-family: cursive;
+        }
+        h2[class="sub11"]
+        {
+            color: black;
+            text-align:start;
+        }
+        h2[class="sub12"]
+        {
+            color:black;
+            text-align:start;
+        }
+        a[class="high"]
+        {
+            position: relative;
+            overflow: hidden;
+            padding: 10px;
+            color: #fff;
+            font-family: cursive;
+        }
+        a[class="high"]::after
+        {
+            content: '';
+            display: block;
+            height: 4px;
+            width:50%;
+            background-color: darkmagenta;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition:transform 0.3s ease;
+        }
+        a[class="high"]:hover::after
+        {
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main" style="color:darkmagenta; font-family: cursive;">My Resume</h1>
+    <hr>
+    <hr>
+    <br>
+    <div style="border: 5px solid cornflowerblue;">
+    <ul>
+        <li style="display:inline-block;">
+            <a class="high" href="main.html" style="text-decoration:none; color:indigo; margin-left: 200px ;"><h1 style="font-size: x-large;";>Home</h1></a>
+        </li>
+        <li style="display:inline-block;">
+            <a class="high" href="./Contact.html" style="text-decoration:none; color:indigo; margin-left: 200px;"><h1 style="font-size: x-large;">Contact</h1></a>
+        </li>
+        <li style="display:inline-block;">
+            <a class="high" href="./ABOUT.html" style="text-decoration:none; color:indigo; margin-left: 200px;"><h1 style="font-size: x-large;">Education</h1></a>
+        </li>
+        <li style="display:inline-block;">
+            <a class="high" href="./Certificate.html" style="text-decoration:none; color:indigo; margin-left: 350px;"><h1 style="font-size: x-large;">Certificates & Services</h1></a>
+        </li>
+        <li style="display:inline-block;">
+            <a class="high" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvqKGzLpwhzltpwzpxtMhhGwzFXmZCThgSBsGDmsMxmkMQhHBqTdWpdChLvDsnfzmNVTvB" style="text-decoration:none; color:indigo; margin-left: 100px;"><h1 style="font-size: x-large;">Talk ??</h1></a>
+        </li>
+    </ul>
+    </div>
+    <hr>
+    <br>
+    <h2 class="sub1" style="color: #D7BBF5;">Info</h2>
+    <h3 style="text-align: center; font-family: cursive;">Hello User ... !</h3>
+    <br>
+    <h3 style="text-align:center;">I'm Shakeer, I'm from Vijayawada, Andhra Pradesh, India.</h3>
+    <br>
+    <p style="margin-left: 50px; font-size: large;">I'm pursuing graduation in B.Tech Course in Computer Science Branch in SRM University , Amaravathi</p>
+    <p style="margin-left: 50px; font-size:  large;">I'll complete my CSE B.Tech Graduation by the year 2026</p>
+    <p style="margin-left: 50px; font-size: large;">Please Feel free to contact me ..</p>
+    <h2 class="sub1" style="color: #D7BBF5;">Educational Qualifications</h2>
+    <p style="font-size: large; margin-left: 50px;">For Directing Towards Educational Details Click On Button Below</p>
+    <button style=" background-color:#D7BBF5;text-align: center; margin-left:150px;border: 4px solid darkmagenta;"><a  href="./ABOUT.html" style="text-decoration:none;" >CLICK</a></button>
+    <h2 class="sub1" style="color: #D7BBF5;">Certifications</h2>
+    <p style="font-size: large; margin-left: 50px;">For Directing Towards Certification Details Click On Button Below</p>
+    <button style="background-color:#D7BBF5; text-align: center;margin-left: 150px;border: 4px solid darkmagenta;"><a href="./Certificate.html" style="text-decoration:none;"> CLICK </a></button>
+    <h2 class="sub1" style="color: #D7BBF5;">Social Services</h2>
+    <p style="font-size: large; margin-left: 50px;">For Directing Towards Service Details Click On Button Below</p>
+    <button style="background-color:#D7BBF5; text-align: center;margin-left: 150px;border: 4px solid darkmagenta;"><a href="Newn.html" style="text-decoration: none;"> CLICK </a></button>
+</body>
+</html>
